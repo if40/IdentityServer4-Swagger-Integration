@@ -15,7 +15,6 @@ namespace Api.Swashbuckle
         {
             services.AddMvc();
 
-            //Register IdentitServer4 authentication library
             services.AddAuthentication(IdentityServerAuthenticationDefaults.AuthenticationScheme)
                 .AddIdentityServerAuthentication(options =>
                 {
