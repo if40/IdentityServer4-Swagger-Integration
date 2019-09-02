@@ -35,7 +35,9 @@ namespace IdentityServer
                     RedirectUris =
                     {
                         "http://localhost:5001/oauth2-redirect.html",
-                        "http://localhost:5001/o2c.html"
+                        "http://localhost:5001/o2c.html",
+                        "http://localhost:5002/oauth2-redirect.html",
+                        "http://localhost:5002/o2c.html"
                     },
                     AllowedScopes = { "demo_api" }
                 }
